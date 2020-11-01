@@ -1,0 +1,24 @@
+.modal.homepopup .modal-content h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #414842;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+× {
+    box-sizing: border-box;
+}
+
+.modal.homepopup .modal-content{
+    text-align: center;
+}
+
+.modal-content{
+    pointer-events: auto;
+}

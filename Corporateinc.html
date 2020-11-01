@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate.inc</title>
+    <link rel="stylesheet" href="./Corporateinc.css" type="text/css">
+</head>
+<body>
+    <div id="homepopup" class="corporateinc" style="padding-right: 17px; display: block;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div id="changeResponse" class="modal-content">
+                <button class="close" type="button" data-dismiss="modal">×</button>
+                <h3>Please Select Your Category!</h3>
+                <div class="ptype clearfix">
+                  <h4>Facility</h4>
+                  <p id="prop_error" class="val_error"></p>
+                    <ul class="pbtnlist property_type">
+                      <li>
+                        <a class="btn" href="">LAND</a>
+                      </li>
+                      <li class="active">
+                        <a class="btn" href="">INDUSTRIAL</a>
+                      </li>
+                      <li>
+                        <a class="btn" href="">NOC</a>
+                      </li>
+                    </ul>
+                </div>
+                <div class="ploc">
+                    <h4>AUTHORITIES</h4>
+                    <p id="loc_error" class="val_error"></p>
+                    <ul class="pbtnlist location_type">
+                        <li class="active">
+                            <a class="btn" href="">NOIDA</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">GREATER-NOIDA</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">YAMUNA EXPRESSWAY</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--
+                <input id="location_type" type="hidden" value="NOIDA">
+                <input id="property_type" type="hidden" value="INDUSTRIAL">
+                -->
+                <button class="btn btnsubmit" type="submit">Get Started</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
